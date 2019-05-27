@@ -14,6 +14,7 @@ caffe
   >
 4, Image augmentation.
   > python3 run_augmentation.py mnist/train/ mnist/augmented 250000 --rotate_angle=30 --p_mirror=0 --p_hsv=0 --p_gamma=0
+  
   > python3 run_augmentation.py usps/train/ usps/augmented 100000 --rotate_angle=30 --p_mirror=0 --p_hsv=0 --p_gamma=0 
   
 5, Generate the image and label lists.
