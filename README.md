@@ -31,4 +31,4 @@ caffe
 7, Start training.
   > /.../caffe/build/tools/caffe train -solver 3x3_mnist_usps_solver.prototxt -gpu 0 -log_dir ./train_mnist_usps_Log
 
-The results is very nice.
+The result is very nice.
