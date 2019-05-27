@@ -20,8 +20,11 @@ caffe
   
 6, Generate the image and label lists.
   > python3 gen_caffe_imglist.py mnist/train mnist.txt
+  
   > python3 gen_caffe_imglist.py mnist/augmented mnist_aug.txt
+  
   > python3 gen_caffe_imglist.py usps/train usps.txt
+  
   > python3 gen_caffe_imglist.py usps/augmented usps_aug.txt
   
   > cat mnist.txt mnist_aug.txt usps.txt usps_aug.txt> train_mnist_usps.txt
