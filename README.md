@@ -42,3 +42,4 @@ caffe
   > /.../caffe/build/tools/caffe train -solver 3x3_mnist_usps_solver.prototxt -gpu 0 -log_dir ./train_mnist_usps_Log
 
 The result is very nice.
+An application of the trained model is in another respository of mine: [image2digits](https://github.com/everchens/image2digits)
