@@ -4,7 +4,7 @@ Handwritten digits recognition trained with augmented MNIST and USPS dataset.
 The practical results of MNIST for digit recognition is poor. To improve the recognition accuracy, I combined the dataset of MNIST and USPS, modified the datasets by removing some abnormal images, augmented the datasets by resizing, cropping and rotating, redesigned a new model named 3x3, and trained the model from scratch. The result is promising. 
 
 # Requirements:
-caffe
+  python3, caffe
 
 # Procedure:
 1, Download the MNIST and USPS datasets.
